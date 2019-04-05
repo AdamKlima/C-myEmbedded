@@ -26,5 +26,3 @@ FreeRTOS\src\timers.c
 
 FreeRTOS\src\variantHooks.c
 
-main.c
-

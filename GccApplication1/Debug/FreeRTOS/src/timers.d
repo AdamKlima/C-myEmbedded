@@ -1,6 +1,7 @@
-FreeRTOS/src/croutine.d FreeRTOS/src/croutine.o: \
- ../FreeRTOS/src/croutine.c ../FreeRTOS/src/ATMEGA_FreeRTOS.h \
+FreeRTOS/src/timers.d FreeRTOS/src/timers.o: ../FreeRTOS/src/timers.c \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
+ ../FreeRTOS/src/ATMEGA_FreeRTOS.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdint.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdint.h \
  ../FreeRTOS/src/FreeRTOSConfig.h \
@@ -18,11 +19,14 @@ FreeRTOS/src/croutine.d FreeRTOS/src/croutine.o: \
  ../FreeRTOS/src/portmacro.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\wdt.h \
  ../FreeRTOS/src/mpu_wrappers.h ../FreeRTOS/src/FreeRTOSVariant.h \
- ../FreeRTOS/src/task.h ../FreeRTOS/src/list.h ../FreeRTOS/src/croutine.h
+ ../FreeRTOS/src/task.h ../FreeRTOS/src/list.h ../FreeRTOS/src/queue.h \
+ ../FreeRTOS/src/timers.h
 
-../FreeRTOS/src/ATMEGA_FreeRTOS.h:
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h:
+
+../FreeRTOS/src/ATMEGA_FreeRTOS.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdint.h:
 
@@ -66,4 +70,6 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 ../FreeRTOS/src/list.h:
 
-../FreeRTOS/src/croutine.h:
+../FreeRTOS/src/queue.h:
+
+../FreeRTOS/src/timers.h:
