@@ -11,7 +11,8 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <util/delay.h>
-
+#include <ATMEGA_FreeRTOS.h>
+#include "../FreeRTOSTraceDriver/FreeRTOSTraceDriver.h"
 
 
 

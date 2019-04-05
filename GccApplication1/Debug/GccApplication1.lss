@@ -572,6 +572,7 @@ void create_tasks_and_semaphores(void)
      3e4:	ef 92       	push	r14
      3e6:	ff 92       	push	r15
      3e8:	0f 93       	push	r16
+	
 	// Semaphores are useful to stop a Task proceeding, where it should be paused to wait,
 	// because it is sharing a resource, such as the Serial port.
 	// Semaphores should only be used whilst the scheduler is running, but we can set it up here.
