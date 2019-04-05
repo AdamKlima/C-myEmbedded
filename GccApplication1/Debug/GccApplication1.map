@@ -1069,44 +1069,44 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x69a7
+.debug_info     0x00000000     0x69d8
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0xbbc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega2560/avr6/crtatmega2560.o
- .debug_info    0x00000bbc      0x33b FreeRTOS/Example/main.o
- .debug_info    0x00000ef7       0xd3 FreeRTOS/FreeRTOSTraceDriver/FreeRTOSTraceDriver.o
- .debug_info    0x00000fca      0x19f FreeRTOS/src/heap_3.o
- .debug_info    0x00001169      0x2df FreeRTOS/src/list.o
- .debug_info    0x00001448      0x284 FreeRTOS/src/port.o
- .debug_info    0x000016cc     0x18fc FreeRTOS/src/queue.o
- .debug_info    0x00002fc8     0x27ae FreeRTOS/src/tasks.o
- .debug_info    0x00005776     0x1077 FreeRTOS/src/timers.o
- .debug_info    0x000067ed      0x1ba FreeRTOS/src/variantHooks.o
+ .debug_info    0x00000bbc      0x36c FreeRTOS/Example/main.o
+ .debug_info    0x00000f28       0xd3 FreeRTOS/FreeRTOSTraceDriver/FreeRTOSTraceDriver.o
+ .debug_info    0x00000ffb      0x19f FreeRTOS/src/heap_3.o
+ .debug_info    0x0000119a      0x2df FreeRTOS/src/list.o
+ .debug_info    0x00001479      0x284 FreeRTOS/src/port.o
+ .debug_info    0x000016fd     0x18fc FreeRTOS/src/queue.o
+ .debug_info    0x00002ff9     0x27ae FreeRTOS/src/tasks.o
+ .debug_info    0x000057a7     0x1077 FreeRTOS/src/timers.o
+ .debug_info    0x0000681e      0x1ba FreeRTOS/src/variantHooks.o
 
-.debug_abbrev   0x00000000     0x1a66
+.debug_abbrev   0x00000000     0x1a99
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0xb1a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega2560/avr6/crtatmega2560.o
- .debug_abbrev  0x00000b1a      0x11b FreeRTOS/Example/main.o
- .debug_abbrev  0x00000c35       0x92 FreeRTOS/FreeRTOSTraceDriver/FreeRTOSTraceDriver.o
- .debug_abbrev  0x00000cc7      0x107 FreeRTOS/src/heap_3.o
- .debug_abbrev  0x00000dce       0xff FreeRTOS/src/list.o
- .debug_abbrev  0x00000ecd      0x158 FreeRTOS/src/port.o
- .debug_abbrev  0x00001025      0x2d8 FreeRTOS/src/queue.o
- .debug_abbrev  0x000012fd      0x359 FreeRTOS/src/tasks.o
- .debug_abbrev  0x00001656      0x30f FreeRTOS/src/timers.o
- .debug_abbrev  0x00001965      0x101 FreeRTOS/src/variantHooks.o
+ .debug_abbrev  0x00000b1a      0x14e FreeRTOS/Example/main.o
+ .debug_abbrev  0x00000c68       0x92 FreeRTOS/FreeRTOSTraceDriver/FreeRTOSTraceDriver.o
+ .debug_abbrev  0x00000cfa      0x107 FreeRTOS/src/heap_3.o
+ .debug_abbrev  0x00000e01       0xff FreeRTOS/src/list.o
+ .debug_abbrev  0x00000f00      0x158 FreeRTOS/src/port.o
+ .debug_abbrev  0x00001058      0x2d8 FreeRTOS/src/queue.o
+ .debug_abbrev  0x00001330      0x359 FreeRTOS/src/tasks.o
+ .debug_abbrev  0x00001689      0x30f FreeRTOS/src/timers.o
+ .debug_abbrev  0x00001998      0x101 FreeRTOS/src/variantHooks.o
 
-.debug_line     0x00000000     0x348b
+.debug_line     0x00000000     0x348e
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x1f9 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega2560/avr6/crtatmega2560.o
- .debug_line    0x000001f9      0x1f8 FreeRTOS/Example/main.o
- .debug_line    0x000003f1       0xfd FreeRTOS/FreeRTOSTraceDriver/FreeRTOSTraceDriver.o
- .debug_line    0x000004ee      0x175 FreeRTOS/src/heap_3.o
- .debug_line    0x00000663      0x1da FreeRTOS/src/list.o
- .debug_line    0x0000083d      0x312 FreeRTOS/src/port.o
- .debug_line    0x00000b4f      0xbfa FreeRTOS/src/queue.o
- .debug_line    0x00001749     0x1656 FreeRTOS/src/tasks.o
- .debug_line    0x00002d9f      0x562 FreeRTOS/src/timers.o
- .debug_line    0x00003301      0x18a FreeRTOS/src/variantHooks.o
+ .debug_line    0x000001f9      0x1fb FreeRTOS/Example/main.o
+ .debug_line    0x000003f4       0xfd FreeRTOS/FreeRTOSTraceDriver/FreeRTOSTraceDriver.o
+ .debug_line    0x000004f1      0x175 FreeRTOS/src/heap_3.o
+ .debug_line    0x00000666      0x1da FreeRTOS/src/list.o
+ .debug_line    0x00000840      0x312 FreeRTOS/src/port.o
+ .debug_line    0x00000b52      0xbfa FreeRTOS/src/queue.o
+ .debug_line    0x0000174c     0x1656 FreeRTOS/src/tasks.o
+ .debug_line    0x00002da2      0x562 FreeRTOS/src/timers.o
+ .debug_line    0x00003304      0x18a FreeRTOS/src/variantHooks.o
 
 .debug_frame    0x00000000      0xe74
  *(.debug_frame)
